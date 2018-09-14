@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/CreationOperators/fromEvent.ts',
+  entry: './src/CreationOperators/of.ts',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
