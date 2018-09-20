@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/CreationOperators/of.ts',
+  entry: './src/CreationOperators/timer.ts',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
