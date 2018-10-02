@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/FilteringOperators/throttle.ts',
+  entry: './src/TransformationOperators/partition.ts',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
